@@ -1,1 +1,0 @@
-wlan.connect('Ziggo11776', '7kwaTTNtUeEa')
