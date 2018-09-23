@@ -4,7 +4,7 @@ import network
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
-wlan.connect('Ziggo11776', '7kwaTTNtUeEa')
+wlan.connect('', '')
 wlan.ifconfig()
 
 

@@ -2,6 +2,8 @@
 
 De standaard MicroPython plugin werkt niet op Windows. Maar er is wel een andere manier.
 
+Gebaseerd op: https://stackoverflow.com/questions/49922339/usb-visible-in-firmware-flasher-tool-but-not-visual-studio-code
+
 Installeer het package ampy:
 ```
 pip install ampy
