@@ -6,10 +6,17 @@
         {
             "label": "ampy",
             "type": "shell",
-            "command": "ampy -b 115200 -p COM7 -d 1 run ${file} --no-output",
+            "command": "ampy -b 115200 -p COM7 -d 1 run ${file}",
             "group": {
                 "kind": "build",
                 "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "dedicated",
+                "showReuseMessage": true
             }
         }
     ]

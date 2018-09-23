@@ -1,6 +1,8 @@
 import time
 from machine import Pin
-led=Pin(2,Pin.OUT)
+led=Pin(14,Pin.OUT)
+
+print('WORKING')
  
 while True:
     led.value(1)
