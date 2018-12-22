@@ -29,12 +29,16 @@ while True:
     time.sleep(.2)
 
     if button.value() == 0:
-        microwave_on = True
-    else: 
-        microwave_on  = False
+        print('HELP')
+        microwave_on = not microwave_on
+        print(microwave_on)
 
     if microwave_on:
         cur_val -= 1
+        if cur_val <= 0:
+            microwave_on = False
+            # LED uit
+            # ping
         r._value = cur_val
         time.sleep(.8)
 
